@@ -14,11 +14,36 @@ console.log('hi')
 
 
 // data type conversion
-let a = 32
+// let a = 32
 
-console.log(typeof(a));
+// console.log(typeof(a));
 
-console.log(typeof(String(a)));
+// console.log(typeof(String(a)));
 
 
 // Number String Boolean parseFloat, parseInt
+
+
+function Raj(){
+    let mydetails= 'i am from bhopal'
+    console.log(mydetails);
+    console.log(mydetails.length);
+    console.log(mydetails.toUpperCase());
+    console.log(mydetails.slice(3,10));
+    console.log(mydetails.substring(3,10));
+    console.log(mydetails.split(' '));
+    console.log(mydetails.toLowerCase());
+    let newstr = 'cybrom is in bhopal mp nagar'
+    console.log(newstr.replace('bhopal', 'indore'));
+    console.log(newstr.replace(/bhopal/g, 'indore'));
+    console.log(newstr.replace(/bhopal/gi, 'indore'));
+    let myname ='siddharth'
+    console.log(mydetails.concat(myname));
+
+    console.log(mydetails.trim());
+    let info = ` hello ${myname} where are you from \n ${mydetails}`
+    console.log(info)
+    
+}
+
+Raj()
