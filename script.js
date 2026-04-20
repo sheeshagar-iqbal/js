@@ -7,8 +7,8 @@
 
 // const { log } = require("debug/src/node")
 
-console.log('iqbal')
-console.log('hi')
+// console.log('iqbal')
+// console.log('hi')
 
 // var let const 
 
@@ -24,26 +24,26 @@ console.log('hi')
 // Number String Boolean parseFloat, parseInt
 
 
-function Raj(){
-    let mydetails= 'i am from bhopal'
-    console.log(mydetails);
-    console.log(mydetails.length);
-    console.log(mydetails.toUpperCase());
-    console.log(mydetails.slice(3,10));
-    console.log(mydetails.substring(3,10));
-    console.log(mydetails.split(' '));
-    console.log(mydetails.toLowerCase());
-    let newstr = 'cybrom is in bhopal mp nagar'
-    console.log(newstr.replace('bhopal', 'indore'));
-    console.log(newstr.replace(/bhopal/g, 'indore'));
-    console.log(newstr.replace(/bhopal/gi, 'indore'));
-    let myname ='siddharth'
-    console.log(mydetails.concat(myname));
+// function Raj(){
+//     let mydetails= 'i am from bhopal'
+//     console.log(mydetails);
+//     console.log(mydetails.length);
+//     console.log(mydetails.toUpperCase());
+//     console.log(mydetails.slice(3,10));
+//     console.log(mydetails.substring(3,10));
+//     console.log(mydetails.split(' '));
+//     console.log(mydetails.toLowerCase());
+//     let newstr = 'cybrom is in bhopal mp nagar'
+//     console.log(newstr.replace('bhopal', 'indore'));
+//     console.log(newstr.replace(/bhopal/g, 'indore'));
+//     console.log(newstr.replace(/bhopal/gi, 'indore'));
+//     let myname ='siddharth'
+//     console.log(mydetails.concat(myname));
 
-    console.log(mydetails.trim());
-    let info = ` hello ${myname} where are you from \n ${mydetails}`
-    console.log(info)
+//     console.log(mydetails.trim());
+//     let info = ` hello ${myname} where are you from \n ${mydetails}`
+//     console.log(info)
     
-}
+// }
 
-Raj()
+// Raj()
