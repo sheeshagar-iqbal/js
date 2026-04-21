@@ -58,9 +58,9 @@
 
 // array 
 
-var arr= [23,24,1,55,3,65]
-var arr2=['rai','raj','jeet','anu']
-var arr3 =new Array(1,[2,3],4,5,5)
+// var arr= [23,24,1,55,3,65]
+// var arr2=['rai','raj','jeet','anu']
+// var arr3 =new Array(1,[2,3],4,5,5)
 
 // console.log(arr);
 // console.log(arr2);
@@ -76,5 +76,5 @@ var arr3 =new Array(1,[2,3],4,5,5)
 //  console.log(arr3);
  
 
-console.log(Array.isArray('hi'));
-console.log(Array.from('hi'));
+// console.log(Array.isArray('hi'));
+// console.log(Array.from('hi'));
