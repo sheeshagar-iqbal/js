@@ -47,3 +47,23 @@
 // }
 
 // Raj()
+// function sid(){
+//     let num1=[4,5,7,1,2,4]
+//     console.log(num1.sort());
+//     console.log(num1.reverse());
+//     console.log(num1.join(''));
+//     console.log(num1.sort().reverse());
+    
+// }
+// sid()
+
+// let chr='cybrom'
+// chr=chr.split('').reverse().join('')
+// console.log(chr);
+
+// let str=''
+// for(let i=0;i<chr.length;i++){
+//     // str+=chr[i]
+//     str=str+chr[i]
+// }
+// console.log(str);
