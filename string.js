@@ -2,6 +2,8 @@
 //  const repocount =50 
 //  console.log(`hello my name is ${name} and repo count is ${repocount}`)
 
+// const { name } = require("ejs");
+
 // const { log } = require("debug/src/node");
 
 // const { log } = require("debug/src/node")
@@ -78,3 +80,53 @@
 
 // console.log(Array.isArray('hi'));
 // console.log(Array.from('hi'));
+
+
+// Object 
+// let ob= {
+//     name:'iqbal',
+//     lastname:  'khan' ,
+//     ['key']:'key'  
+// }
+// // console.log(ob.name);
+// // console.log(typeof ob['key']);
+
+// ob.greating =function(){
+//     console.log('this is js');
+    
+// }
+// ob.greating();
+// console.log(Object.keys(ob));
+// console.log(Object.values(ob));
+// console.log(Object.entries(ob));
+
+
+// const {greating}=ob
+// const {greating: hello}=ob
+// console.log(greating);
+// console.log(hello);
+
+
+
+// function add(num1,num2){
+//     return num1+num2
+// }
+
+// const result= add(2,3)
+// console.log('result', result)
+
+// const arrow = ()=>{
+//     let usr= 'iqbal'
+//     console.log(this);
+    
+// }
+// arrow()
+
+// var a=10
+(function para(){
+    var a=20 ;
+    console.log(a);
+    
+})();
+
+(()=>{console.log('34')})()
