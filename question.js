@@ -1,6 +1,8 @@
 // // // leap year
 // // year =2025
 
+const { log } = require("debug/src/node");
+
 // // if (year%4==0 && year%100 !=0){
 // //     console.log('leap year')
 // // }
@@ -292,4 +294,153 @@
 //         }
 //     }
 // }
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+    
+// }
+
+
+
+// Check if a string is a palindrome
+
+// let str ='madam'
+// let st2
+// for (let i = 0; i < str.length; i++) {
+//     st2+=str[i]
+    
+// }
+// if (str==st2){
+//     console.log('string is a palondrome');
+    
+// }else{
+//     console.log('string is not a palondrome');
+
+// }
+
+// Count vowels in a string
+
+// let str ='javascript'
+// str=str.toLowerCase()
+// let count =0
+// for (let i = 0; i < str.length; i++) {
+//     if ('aioue'.includes(str[i])){
+//         count+=1
+//     }
+    
+// }
+// console.log(count);
+
+// Find the longest word in a sentence
+
+// let str="I’ll give you practice questions that mix loops + strings + arrays (very useful for real coding)."
+// let arr=str.split(' ')
+// let index =0
+// let len=0
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     // console.log(element);
+//     if (len<element.length){
+//         index=i
+//         len=element.length
+//     }
+    
+// }
+// console.log(arr[index]);
+
+
+// Convert first letter of each word to uppercase
+
+// let str="hello world"
+// let newstr=str.split(' ')
+// // console.log(newstr);
+//     let final = []
+
+// for (let i = 0; i < newstr.length; i++) {
+//     // console.log(newstr[i])
+//     // console.log(newstr[i].charAt(0).toUpperCase())
+//     // console.log(newstr[i].slice(1));
+//     final.push(newstr[i].charAt(0).toUpperCase() + newstr[i].slice(1))
+//     console.log(final);
+// }
+//     console.log(final.join(' '));
+
+
+// Find largest number in an array
+// let arr =[2, 5, 1, 9, 3]
+// let max =0
+// let secmax=0
+// for (let i = 0; i < arr.length; i++) {
+//         if (arr[i]>max){
+//             secmax=max
+//             max=arr[i]
+//         }    
+// }
+// console.log(max);
+// console.log(secmax);
+
+
+// Remove duplicates from array
+
+// let arr= [1,2,2,3,4,4]
+// let newarr=[]
+// for (let i = 0; i < arr.length; i++) {
+//     if (!newarr.includes(arr[i])){
+//         newarr.push(arr[i])
+//     }    
+// }
+// console.log(newarr);
+
+// // Reverse an array
+// console.log(arr.reverse());
+
+// // Find sum of all elements
+// // console.log(Math.sum(arr));
+// let sum=0
+// for (let i = 0; i < arr.length; i++) {
+//     sum+=arr[i]    
+// }
+// console.log(sum);
+
+// Count frequency of each character
+// let str="aabbc"
+// let feq={}
+// for (let i=0; i < str.length; i++) {
+//         let key=str[i]
+//         if (feq[key]){
+//             feq[key]++
+//         }else{
+//             feq[key]=1
+//         }
+// }
+// console.log(feq);
+
+// let str = "aabbc";
+// let freq = {};
+
+// for (let ch of str) {
+//     freq[ch] = (freq[ch] || 0) + 1;
+//     console.log(ch);
+    
+// }
+
+// console.log(freq);
+
+// Check if two strings are anagrams
+
+let str1 ="listwn" 
+let str2 ="silent"
+
+for (let i = 0; i < str1.length; i++) {
+    if(str2.includes(str1[i])){
+        console.log('this string ate not anagram');
+        break
+        
+    }
+}
+else{
+        console.log('this sting are anagram');
+        
+}
+
 

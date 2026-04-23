@@ -123,10 +123,10 @@
 // arrow()
 
 // var a=10
-(function para(){
-    var a=20 ;
-    console.log(a);
+// (function para(){
+//     var a=20 ;
+//     console.log(a);
     
-})();
+// })();
 
-(()=>{console.log('34')})()
+// (()=>{console.log('34')})()
