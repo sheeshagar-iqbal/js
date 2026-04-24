@@ -130,3 +130,14 @@
 // })();
 
 // (()=>{console.log('34')})()
+
+// high order arry loop
+
+const arr =[1,2,4,5,7,4]
+// let arr= 'hello world'
+// for (const i of arr) {
+//     console.log(i);
+    
+// }
+
+// maps 

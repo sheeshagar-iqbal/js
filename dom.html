@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            /* border: 3px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-image: url(); */
+        }
+        .lab{
+            /* border: 2px solid black; */
+            position: relative;
+            height: auto;
+            width: auto;
+        }
+        #tumb{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            /* position: absolute; */
+            left: '2%';
+        }
+        #tumb img{
+            width: 120px;
+            height: 1200px;
+        }
+        #tumb2 img{
+            /* position: absolute; */
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="jay()">click me</button>
+    <button onclick="fun()">add text</button>
+    <button onclick="bg()">bg-color</button>
+    <button onclick="box()">innertext</button>
+    <button onclick="red()">bg-color-red</button>
+    <button onclick="green()">bg-color-green</button>
+    <button onclick="blue()">bg-color-blue</button>
+    <button onclick="img()">bg-image</button>
+    <button onclick="change_img()">change_img</button>
+    <p id="show"></p>
+
+    <div id="box">
+        <p>this is paragraph</p>
+    </div>
+    <div id="box2">
+        <img src="img.jpg" alt="" id="img">
+    </div>
+
+    <button onclick="hide()">hide</button>
+    <button onclick="show()">show</button>
+
+    <h1 id="number">0</h1>
+    <button onclick="increament()">incrament</button>
+    <button onclick="decreament()">decreament</button>
+
+
+    <div class="lab">
+        <div id="tumb">
+            <img src="img.jpg" alt="" onclick="imagechange(this)">
+            <img src="img2.jpg" alt="" onclick="imagechange(this)">
+
+            <img src="img3.jpg" alt="" onclick="imagechange(this)">
+            <img src="img4.jpg" alt="" onclick="imagechange(this)">
+
+        </div>
+        <div id="tumb2">
+            <img src="img.jpg" alt="" id="chgimg">
+        </div>
+
+    </div>
+
+    <input type="text" name="" id="inp" value="">
+    <button onclick="showinp()">summit</button>
+    <h1 id="showinp"></h1>
+    <div id="colorbox" >hi</div>
+    
+    <script src="dom.js"></script>
+</body>
+</html>

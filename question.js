@@ -1,7 +1,7 @@
 // // // leap year
 // // year =2025
 
-const { log } = require("debug/src/node");
+// const { log } = require("debug/src/node");
 
 // // if (year%4==0 && year%100 !=0){
 // //     console.log('leap year')
@@ -428,19 +428,19 @@ const { log } = require("debug/src/node");
 
 // Check if two strings are anagrams
 
-let str1 ="listwn" 
-let str2 ="silent"
+// let str1 ="listwn" 
+// let str2 ="silent"
 
-for (let i = 0; i < str1.length; i++) {
-    if(str2.includes(str1[i])){
-        console.log('this string ate not anagram');
-        break
+// for (let i = 0; i < str1.length; i++) {
+//     if(str2.includes(str1[i])){
+//         console.log('this string ate not anagram');
+//         break
         
-    }
-}
-else{
-        console.log('this sting are anagram');
+//     }
+// }
+// else{
+//         console.log('this sting are anagram');
         
-}
+// }
 
 
