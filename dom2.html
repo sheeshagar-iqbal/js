@@ -43,6 +43,15 @@
             justify-content: center;
 
         }
+        #clock{
+            width: 160px;
+            height: 60px;
+            background-color: yellowgreen;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -57,16 +66,19 @@
     <h3>try clicking on one fo the colors above <span> to change the background colorof this page</span></h3>
 </div> -->
 
-<!-- <div id="bmi">
-    Height in CM: <input type="text"> <br>
-    weight in KG: <input type="text"><br>
-    <button>calculate</button>
-    <div id="result"></div>
+<!-- -----------------bmi------------- -->
+
+<!-- <form id="bmi">
+    Height in CM: <input type="text" id="cm"> <br>
+    weight in KG: <input type="text" id="kg"><br>
+    <button>calculate</button> -->
+    <!-- <button onclick="bmi()">calculate</button> -->
+    <!-- <div id="result" ></div>
     <h1>BMI Weight Guide</h1>
     <h5>Under Weight = Less than18.6</h5>
     <h5>Normal Weight = 18.6 and 24.9</h5>
     <h5>overweight Weight = Greater than 24.9</h5>
-</div> -->
+</form> -->
 
 
 <!-- toggle------------------------------------------------------------ -->
@@ -77,7 +89,31 @@
     <button onclick="toggle()">hide & show</button> -->
 
 
-    
+    <!--            ======== digital clock ============  -->
+
+    <!-- <div id="center">
+        <div id="banner"><span>your local time</span></div>
+        <div id="clock"></div>
+    </div> -->
+
+    <!--  =======guess number ============= -->
+
+    <div id="wrapper">
+        <h1> number guessing game</h1>
+        <p>Try and guess a random numner between 1 andd 100</p>
+        <p>you have 10 attempts to guess the right number.</p>
+        <br>
+            <form action="" class="form">
+                <label for="guessField" id="guess">Guess a number</label>
+                <input type="text", id="guessField" class="guessField"> <br>
+                <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+            </form>
+            <div class="resultParas">
+                <p>previous guesses: <span class="guesses"></span></p>
+                <p>guesses remaining: <span class="lastResult">10</span></p>
+                <p class="lowOrHigh"></p>
+            </div>
+    </div>
     <script src="dom2.js"></script>
 </body>
 </html>
