@@ -19,3 +19,20 @@
 // })
 
 // -------------------bg -change ---------------===----------
+
+let isture= false
+let toggle =()=>{
+    let con= document.querySelector('#container p')
+
+    if(isture){
+        con.style.display='block'
+        isture=!isture
+
+    }else{
+        con.style.display='none'
+        isture=!isture
+
+    }
+}
+
+// --------------toggle---------------------
