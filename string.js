@@ -141,3 +141,12 @@ const arr =[1,2,4,5,7,4]
 // }
 
 // maps 
+
+arr.filter((a)=>{
+    console.log(a);
+    
+})
+arr.forEach((a)=>{
+    console.log(a);
+    
+})

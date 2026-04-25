@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #canvas{
+            text-align: center;
+            border: 1px solid red;
+            background-color: aqua;
+
+        }
+        .button{
+            width: 80px;
+            height: 80px;
+            border: 2px solid black;
+        }
+        #gray{
+            background-color: gray;
+            
+        }
+        #white{
+            background-color: white;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- bg =change -->
+     <!-- <div id="canvas">
+    <h1>color scheme switcher</h1>
+    <div class="button" id="gray" onclick="change(this)"></div>
+    <div class="button" id="white" onclick="change(this)"></div>
+    <div class="button" id="blue" onclick="change(this)"></div>
+    <div class="button" id="yellow" onclick="change(this)"></div>
+    <h3>try clicking on one fo the colors above <span> to change the background colorof this page</span></h3>
+</div> -->
+
+<div id="bmi">
+    Height in CM: <input type="text"> <br>
+    weight in KG: <input type="text"><br>
+    <button>calculate</button>
+    <div id="result"></div>
+    <h1>BMI Weight Guide</h1>
+    <h5>Under Weight = Less than18.6</h5>
+    <h5>Normal Weight = 18.6 and 24.9</h5>
+    <h5>overweight Weight = Greater than 24.9</h5>
+</div>
+    <script src="dom2.js"></script>
+</body>
+</html>
