@@ -444,11 +444,16 @@
 // }
 
 
-let arr=[32,54,25,64,75,35]
-max=0
-for (let i = 0; i < arr.length; i++) {
-    if(max<arr[i]){
-        max=arr[i]
-    }    
-}
-console.log(max);
+// let arr=[32,54,25,64,75,35]
+// max=0
+// for (let i = 0; i < arr.length; i++) {
+//     if(max<arr[i]){
+//         max=arr[i]
+//     }    
+// }
+// console.log(max);
+
+
+
+
+// anync js =======================================================================================================================
