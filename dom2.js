@@ -1,6 +1,8 @@
 // let change =(self)=>{
 //     console.log(self.id);
 
+// const { log } = require("debug/src/node");
+
 //     document.querySelector('#canvas').style.backgroundColor=self.id
 
 // }
@@ -47,9 +49,6 @@
 //   document.querySelector("#result").innerHTML = res;
 // };
 
-
-
-
 // let from= document.querySelector('form')
 
 // from.addEventListener('submit',function(e){
@@ -63,10 +62,10 @@
 //     }
 //     else if (kg===''|| kg<0 || isNaN(kg)){
 //         res.innerHTML= 'please enter the valid wright in kg'
-//     }  
+//     }
 //     else{
 //         res.innerHTML=kg/((cm*cm)/10000).toFixed()
-//     }  
+//     }
 
 // })
 
@@ -93,24 +92,68 @@
 
 // let prevguess =[]
 // let numguess=1
-// let playgame =true 
-
+// let playgame =true
 
 // async ==========================================asyns=================
 
 // setTimeout(function(){
 //     // console.log('iqbal');
 //     document.querySelector('h1').innerHTML='iqbal'
-    
+
 // },2000)
 // let time = ()=>{
 //     let dd= new Date()
 //     console.log(dd.toString());
-    
+
 // }
 
 // setTimeout(time,2000)
 
+//    changa bg color per second==============/////////////////////=================
+
 // console.log(Math.floor(Math.random()*16));
+
+// let code = () => {};
+// code()
+// console.log(str);
+
+// console.log(code());
+// console.log(str);
+
+// document.querySelector('#start').addEventListener('click',()=>{
+//             setInterval(()=>{
+//       code()
+//       document.querySelector('body').style.color=str
+//             },1000)
+// })
+// let intervalid=null
+// function started() {
+// //   console.log(str + "out");
+//     let hexcode = "0123456789ABCDEF";
+
+
+//   intervalid= setInterval(() => {
+//     let str = "#";
+//     // str += hexcode[Math.floor(Math.random() * 16)];
+//     console.log(str);
+//     for (let i = 0; i < 6; i++) {
+//       str += hexcode[Math.floor(Math.random() * 16)];
+//     }
+
+//     document.querySelector("body").style.backgroundColor = str;
+//     // console.log(str + "inner");
+//     // console.log(typeof str);
+//   }, 1000);
+// }
+
+// function stoped(){
+//     clearInterval(intervalid)
+
+// }
+
+// console.log();
+
+
+
 
 
