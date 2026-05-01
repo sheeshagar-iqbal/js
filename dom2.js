@@ -81,16 +81,36 @@
 
 //  ============guess number ==============
 
-const randomNumber= parseInt(Math.random()*100 +1)
-const submit= document.getElementById('sunt')
-const userInput = document.querySelector('#guessField')
-const guessSlot =document.querySelector('.guesses')
-const remaining= document.querySelector('.lastResult')
-const lowHigh= document.querySelector('.lowOrHigh')
-const startOver= document.querySelector('.resultParas')
+// const randomNumber= parseInt(Math.random()*100 +1)
+// const submit= document.getElementById('sunt')
+// const userInput = document.querySelector('#guessField')
+// const guessSlot =document.querySelector('.guesses')
+// const remaining= document.querySelector('.lastResult')
+// const lowHigh= document.querySelector('.lowOrHigh')
+// const startOver= document.querySelector('.resultParas')
 
-const p = document.createElement('p')
+// const p = document.createElement('p')
 
-let prevguess =[]
-let numguess=1
-let playgame =true 
+// let prevguess =[]
+// let numguess=1
+// let playgame =true 
+
+
+// async ==========================================asyns=================
+
+// setTimeout(function(){
+//     // console.log('iqbal');
+//     document.querySelector('h1').innerHTML='iqbal'
+    
+// },2000)
+// let time = ()=>{
+//     let dd= new Date()
+//     console.log(dd.toString());
+    
+// }
+
+// setTimeout(time,2000)
+
+// console.log(Math.floor(Math.random()*16));
+
+
