@@ -457,3 +457,42 @@
 
 
 // anync js =======================================================================================================================
+
+// anagram   
+// let str1 = "listen";
+// let str2 = "silent";
+
+// if (str1.length !== str2.length) {
+//     console.log("Not anagrams");
+// } else {
+//     let count = {};
+
+//     for (let ch of str1) {
+//         count[ch] = (count[ch] || 0) + 1;
+//     }
+
+//     for (let ch of str2) {
+//         if (!count[ch]) {
+//             console.log("Not anagrams");
+//             break;
+//         }
+//         count[ch]--;
+//     }
+
+//     console.log("Strings are anagrams");
+// }
+
+
+// let obj={
+//     a:3,
+//     b:4
+// }
+
+//   for (let ch in obj) {
+//     console.log(ch);
+    
+      
+//         console.log(obj[ch]--);
+        
+//     }
+

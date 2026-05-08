@@ -126,6 +126,7 @@
 //       document.querySelector('body').style.color=str
 //             },1000)
 // })
+//   ==   ============   ==============
 // let intervalid=null
 // function started() {
 // //   console.log(str + "out");
