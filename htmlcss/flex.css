@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 21px;
+    background-color: rgba(0, 0, 0, 0.734);
+    height: 50px;
+    width: 100%;
+ }
+
+ .nav select{
+    background-color: rgba(51, 46, 46, 0.764);
+    padding: 7px 20px;
+    color: aliceblue;
+   
+ }
+ input{
+    width: 70%;
+    padding: 5px 1px;
+    background-color: #cfcccc;
+    color: aliceblue;
+ }
+ 
+ 
+ 
+ 
+ .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    background: #cfcccc;
+    padding: 30px;
+ }
+ .childbox{
+    background-color: rgba(128, 128, 128, 0.47);
+    border: 2px solid gray;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 25%;
+ }
+ .childbox button{
+    padding: 5px 12px;
+    background: rgba(221, 32, 32, 0.863);
+    border-radius: 20px;
+ }
+ .childbox p{
+    width: 70%;
+ }
+
+ /* i{
+    text-align: end;
+ } */
+
+ .childbox2 .card{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 40px;
+   
+    
+
+ }
+
+  .childbox2{
+    background-color: rgba(128, 128, 128, 0.47);
+    border: 2px solid gray;
+    padding: 10px;
+    width: 25%;
+ }
+ .imgcard{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        width: 80%;
+    }
+ }
