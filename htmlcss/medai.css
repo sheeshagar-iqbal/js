@@ -1,0 +1,35 @@
+/* @media screen and (max-width:800px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:600px) {
+    body{
+        background-color: rgb(195, 67, 27);
+    }
+} */
+
+h1{
+    font-size: 100px;
+}
+img{
+    width: 400px;
+}
+#checked{
+    border:none;
+    display: none;
+}
+#checked:checked~.container{
+    background-color: aqua;
+    /* color: red; */
+}
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 50px;
+    }
+    .three{
+        display: none;
+    }
+   
+}
