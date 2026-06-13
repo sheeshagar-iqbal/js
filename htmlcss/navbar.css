@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: aqua;
+}
+ul{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+label{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    label{
+        display: contents;
+    }
+    ul{
+        display: none;
+    }
+    label:checked~h1{
+        color: red;
+    }
+}
+
+h1{
+    font-family: "Playwrite GB J", cursive;
+}
+div{
+    font-family: "Dancing Script",;
+
+}
